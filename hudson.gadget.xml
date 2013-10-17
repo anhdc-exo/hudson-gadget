@@ -69,7 +69,7 @@ function loadStatus() {
         html = [],
         name;
     
-    if (statusTxt.indexOf("SUCCESS") != -1) {
+    if (statusTxt.indexOf("stable") != -1) {
       status = '<img src="http://builder.exoplatform.org/hudson/plugin/greenballs/48x48/green.gif" alt="success" title="success" />';
     } else {
       status = '<img src="http://builder.exoplatform.org/hudson/static/b1286c3d/images/48x48/red.gif" alt="failed" title="failed"/>';
